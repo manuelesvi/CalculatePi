@@ -10,7 +10,11 @@ let calcPi (steps:float) =
     let mutable pi = 3.0
     // use it to iterate between + and -
     let mutable sign = 1.0
+
+    // start at 2 increment by 2 until desired steps
     for n in 2.0 .. 2.0 .. steps do
+        if n = 100000.0 then
+            Debugger.Break()
         pi <- pi + ( sign * 4.0/(nilakantha n) ) 
         sign <- sign * -1.0
 
