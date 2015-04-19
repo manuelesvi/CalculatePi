@@ -13,8 +13,6 @@ let calcPi (steps:float) =
 
     // start at 2 increment by 2 until desired steps
     for n in 2.0 .. 2.0 .. steps do
-        if n = 100000.0 then
-            Debugger.Break()
         pi <- pi + ( sign * 4.0/(nilakantha n) ) 
         sign <- sign * -1.0
 
