@@ -35,7 +35,7 @@ let main argv =
     //let pi50M  = calcPi 50000000m
     //let pi100M = calcPi 100000000m
     //let pi200M = calcPi 200000000m
-    let pi10B  = calcPi 10000000000m
+    let pi1B  = calcPi 1000000000m
     //let piMax = calcPi System.Double.MaxValue-2.0
 
     printfn "  5K -> %.020f" pi5
@@ -47,7 +47,7 @@ let main argv =
     //printfn " 50M -> %.031f" pi50M
     //printfn "100M -> %.031f" pi100M
     //printfn "200M -> %.031f" pi200M
-    printfn "  1B -> %.031f" pi10B
+    printfn "  1B -> %.031f" pi1B
     
     printfn "Machin -> %f" machin
     //printfn "Max(int32) -> %.020f" piMax
