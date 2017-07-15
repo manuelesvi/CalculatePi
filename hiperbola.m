@@ -21,5 +21,5 @@ max=roots(d); # -5
 maxy = polyval(c, max) * 2;
 miny = polyval(c, -20);
 
-plot(x,y, x,t1, x,t2, x,z,max*ones(1,251),maxy:-1:miny, r(1), 0, "marker", "*", r(2), 0, "marker", "*", max, 0, "marker", "*")
+plot(x,y, x,t1, x,t2, x,z,max*ones(1,251),miny:1:maxy, r(1), 0, "marker", "*", r(2), 0, "marker", "*", max, 0, "marker", "*")
 legend("f(x) = -x^2-10x", "tangente raiz 1", "tangente raiz 2", "pendiente curva")
