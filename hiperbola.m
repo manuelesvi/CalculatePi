@@ -10,9 +10,9 @@ z=d(1)*x+d(2);
 
 #recta tangente de un punto (a,b) = f'(a)*(x-a)+f(a)
 #primera raiz x = r(1) = -10, y = f(a) = 0
-t1=(d(1)*r(1)+d(2))*(x-r(1))+0;
+t1=polyval(d, r(1))*(x-r(1))+0;
 #segunda raiz x = r(2) = 0, y = f(a) = 0
-t2=(d(1)*r(2)+d(2))*(x-r(2))+0;
+t2=polyval(d, r(2))*(x-r(2))+0;
 
 #max y - centro
 max=roots(d); # -5
