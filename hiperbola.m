@@ -1,8 +1,10 @@
 # grafica y analisis de -x^-10x 
 x=-20:0.1:10;
-y=(-1*x.^2)+(-10*x);
 c=[-1 -10 0];
+y=polyval(c, x);
+
 r=roots (c); #[-10 0]
+#1er derivada
 d=polyder (c); #[-2 -10]
 
 #primer derivada = pendiente curva
