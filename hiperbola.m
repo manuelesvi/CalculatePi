@@ -8,7 +8,7 @@ r=roots (c); #[-10 0]
 d=polyder (c); #[-2 -10]
 
 #primer derivada = pendiente curva
-z=d(1)*x+d(2);
+z=polyval(d,x);
 
 #recta tangente de un punto (a,b) = f'(a)*(x-a)+f(a)
 #primera raiz x = r(1) = -10, y = f(a) = 0
