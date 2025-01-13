@@ -1,4 +1,4 @@
-# grafica y analisis de -x^-10x 
+# grafica y analisis de -x^2-10x 
 x=-20:0.1:10;
 c=[-1 -10 0];
 y=polyval(c, x);
