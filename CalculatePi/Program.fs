@@ -9,7 +9,7 @@ let calcPi (steps:decimal) =
     let timer = new Stopwatch()
     timer.Start()
     let mutable pi = 3.0m
-    // iterate between + and -
+    // use it to iterate between + and -
     let mutable sign = 1m
 
     // start at 2 increment by 2 until desired steps
@@ -34,7 +34,7 @@ let main argv =
     let pi200M = calcPi 200000000m
     //let pi300M = calcPi 300000000m
     let pi500M = calcPi 500000000m
-    let pi1B  = calcPi 1000000000m
+    let pi1B   = calcPi 1000000000m
     printfn "      π -> 3.1415926535897932384626433832795"
     printfn "--------------------------------------------"
     printfn "     5K -> %.020f" pi5
